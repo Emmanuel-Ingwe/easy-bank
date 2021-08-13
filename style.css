@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* HEAD */
+.head {
+	padding: 140px;
+	padding-top: 216px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 58px;
+	color: hsl(233, 26%, 24%);
+	font-weight: 100;
+}
+
+p {
+	margin-bottom: 30px;
+	font-size: 19.4px;
+	color: hsl(233, 8%, 62%);
+}
+
+.img {
+	position: absolute;
+	width: 695px;
+	height: 860px;
+	top: -2.6rem;
+	right: 0;
+	right: -7rem;
+}
+
+.img1 {
+	position: absolute;
+	width: 1025px;
+	height: 900px;
+	top: -10rem;
+	right: -18.5rem;
+}
+
+button {
+	font-size: 12.7px;
+	padding: 12.2px;
+	padding-left: 32px;
+	padding-right: 32px;
+	color: aliceblue;
+	border: none;
+	border-radius: 19px;
+	background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+/* END OF HEAD */
+
+/* CHOICE */
+.choice {
+	padding: 140px;
+	padding-top: 100px;
+	background-color: hsla(0, 7%, 94%, 0.637);
+	min-width: 10vh;
+}
+
+.choicee {
+	display: flex;
+	justify-content: space-between;
+}
+
+.h {
+	margin-bottom: 13px;
+	font-size: 40px;
+	color: hsl(233, 26%, 24%);
+	font-weight: 100;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	color: hsl(233, 26%, 24%);
+	font-weight: 100;
+	margin-bottom: 23px;
+}
+
+.p-choice {
+	font-size: 16.6px;
+	color: hsl(233, 8%, 62%);
+	display: block;
+}
+/* END OF CHOICE */
+
+/* ARTICLES */
+.articles {
+	padding: 140px;
+	padding-top: 100px;
+}
+
+.articles-img {
+	background-color: aliceblue;
+	border-radius: 7px;
+	height: 100%;
+	width: 100%;
+	margin: 13px;
+	margin-top: 32px;
+}
+
+.hh {
+	margin: 13px;
+}
+
+.AR-img {
+	width: 240px;
+	height: 190px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+h3 {
+	color: hsl(233, 26%, 24%);
+	font-weight: 100;
+	font-size: 16.6px;
+	margin-bottom: 13px;
+	margin-top: 12px;
+	row-gap: 2;
+}
+
+h6,
+h5 {
+	color: hsl(233, 8%, 62%);
+	font-weight: 180;
+}
+
+.articles-text {
+	padding: 20px;
+}
+/* END OF ARTICLES */
+
+/* FOOTER */
+footer {
+	background-color: hsl(233, 26%, 24%);
+	height: 180px;
+	padding: 140px;
+	padding-top: 50px;
+	display: flex;
+}
+
+.logo {
+	width: 140px;
+	height: 20px;
+	background: rgb(171, 168, 201);
+}
+
+.socials a {
+	padding: 4px;
+}
+
+.list1 li {
+	list-style: none;
+	margin-left: 130px;
+}
+
+.list1 ol {
+	color: rgb(227, 222, 252);
+	padding-bottom: 18px;
+	font-weight: 100;
+}
+
+.btn {
+	margin-left: 230px;
+}
+
+.btn button {
+	margin-left: 120px;
+}
+
+.btn p {
+	font-size: 14px;
+	margin-left: 80px;
+	margin-top: 7px;
+}
+/* END OF FOOTER */
