@@ -185,3 +185,12 @@ footer {
 	margin-top: 7px;
 }
 /* END OF FOOTER */
+
+/* NAVBAR */
+.logo1 {
+	background: hsla(0, 7%, 94%, 0.637);
+	height: 10px;
+	padding: 14px;
+	display: flex;
+}
+/* END NAVBAR */
