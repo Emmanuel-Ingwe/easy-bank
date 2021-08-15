@@ -20,15 +20,16 @@ body {
 
 h1 {
 	margin-bottom: 20px;
-	font-size: 58px;
+	font-size: 50px;
 	color: hsl(233, 26%, 24%);
-	font-weight: 100;
+	font-weight: 400;
 }
 
 p {
 	margin-bottom: 30px;
-	font-size: 19.4px;
+	font-size: 17px;
 	color: hsl(233, 8%, 62%);
+	font-weight: 400;
 }
 
 .img {
@@ -65,7 +66,6 @@ button {
 	padding: 140px;
 	padding-top: 100px;
 	background-color: hsla(0, 7%, 94%, 0.637);
-	min-width: 10vh;
 }
 
 .choicee {
@@ -77,7 +77,7 @@ button {
 	margin-bottom: 13px;
 	font-size: 40px;
 	color: hsl(233, 26%, 24%);
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .icon {
@@ -88,12 +88,12 @@ button {
 
 h2 {
 	color: hsl(233, 26%, 24%);
-	font-weight: 100;
+	font-weight: 400;
 	margin-bottom: 23px;
 }
 
 .p-choice {
-	font-size: 16.6px;
+	font-size: 14.4px;
 	color: hsl(233, 8%, 62%);
 	display: block;
 }
@@ -102,7 +102,7 @@ h2 {
 /* ARTICLES */
 .articles {
 	padding: 140px;
-	padding-top: 100px;
+	padding-top: 7px;
 }
 
 .articles-img {
@@ -127,17 +127,23 @@ h2 {
 
 h3 {
 	color: hsl(233, 26%, 24%);
-	font-weight: 100;
-	font-size: 16.6px;
+	font-weight: 400;
+	font-size: 15px;
 	margin-bottom: 13px;
 	margin-top: 12px;
 	row-gap: 2;
 }
 
-h6,
 h5 {
 	color: hsl(233, 8%, 62%);
-	font-weight: 180;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+h6 {
+	color: hsl(233, 8%, 62%);
+	font-weight: 400;
+	font-size: 8.99px;
 }
 
 .articles-text {
@@ -171,8 +177,9 @@ h5 {
 
 .list1 ol {
 	color: rgb(227, 222, 252);
-	padding-bottom: 18px;
-	font-weight: 100;
+	padding-bottom: 19px;
+	font-weight: 400;
+	font-size: 13.6px;
 }
 
 .btn {
@@ -180,7 +187,7 @@ h5 {
 }
 
 .btn button {
-	margin-left: 120px;
+	margin-left: 139px;
 }
 
 .btn p {
@@ -214,9 +221,10 @@ h5 {
 .list3 a {
 	color: hsl(235, 14%, 52%);
 	padding-bottom: 18px;
-	font-weight: 550;
+	font-weight: 450;
 	padding-right: 25px;
 	text-decoration: none;
+	font-size: 14px;
 }
 
 .btn1 {
