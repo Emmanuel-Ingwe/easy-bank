@@ -269,15 +269,77 @@ h6 {
 	transform: scaleX(1);
 }
 
-/* .list3 a::after {
-	content: '';
-	width: 10px;
-	border-bottom: 3.9px solid hsl(136, 65%, 51%);
-	padding-bottom: 28.5px;
-} */
-
 .btn1 {
 	margin: 22.3px;
 	margin-left: 170px;
 }
 /* END NAVBAR */
+
+
+/* MEDIA QUERY For MOBILE */
+@media(max-width: 812px) {
+	body {
+		overflow-x: hidden;
+	}
+
+    .navbar {
+	width: 812px;
+    }
+
+    .list3 nav {
+		display: none;
+	}
+
+	.btn1 {
+	display: none;
+    }
+
+	.img {
+	position: absolute;
+	width: 500px;
+	height: 680px;
+    }
+
+    .img1 {
+	position: absolute;
+	width: 95px;
+	height: 70px;
+    }
+
+	.choicee {
+	display: inline-block;
+    }
+
+	#footer {
+	height: 700px;
+	display: inline-block;
+	width: 812px;
+    }
+
+	.btn {
+	margin-left: 0px;
+    } 
+
+    .btn button {
+	margin-left: 0px;
+    }
+
+    .btn p {
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+    } 
+
+	.list1 li {
+	list-style: none;
+	margin-left: 1px;
+    }
+
+    .list1 ol {
+    	color: rgb(227, 222, 252);
+    	padding-bottom: 10px;
+    	font-weight: 400;
+    	font-size: 13.6px;
+    }
+} 
+/* END For MOBILE */
