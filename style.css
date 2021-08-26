@@ -283,7 +283,7 @@ h6 {
 	}
 
     .navbar {
-	width: 812px;
+	width: 375px;
     }
 
     .list3 nav {
@@ -296,14 +296,17 @@ h6 {
 
 	.img {
 	position: absolute;
-	width: 500px;
-	height: 680px;
+	width: 200px;
+	height: 200px;
+	right: 0;
     }
 
     .img1 {
 	position: absolute;
-	width: 95px;
-	height: 70px;
+	width: 200px;
+	height: 200px;
+	right: 0;
+	top: 0;
     }
 
 	.choicee {
@@ -313,26 +316,26 @@ h6 {
 	#footer {
 	height: 700px;
 	display: inline-block;
-	width: 812px;
+	width: 375px;
     }
 
 	.btn {
 	margin-left: 0px;
     } 
 
-    .btn button {
+    /* .btn button {
 	margin-left: 0px;
-    }
+    } */
 
     .btn p {
 	font-size: 20px;
-	margin-left: 0px;
-	margin-top: 0px;
+	/* margin-left: 0px;
+	margin-top: 0px; */
     } 
 
 	.list1 li {
 	list-style: none;
-	margin-left: 1px;
+	text-align: center;
     }
 
     .list1 ol {
@@ -340,6 +343,30 @@ h6 {
     	padding-bottom: 10px;
     	font-weight: 400;
     	font-size: 13.6px;
+    }
+
+	.logo {
+	width: 140px;
+	height: 20px;
+	background: rgb(171, 168, 201);
+    }
+
+    .socials a {
+	padding: 4px;
+    }
+
+	articles {
+    margin-right: 50px;
+	padding-top: 7px;
+    }
+
+    .articles-img {
+	background-color: aliceblue;
+	border-radius: 7px;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	margin-top: 32px;
     }
 } 
 /* END For MOBILE */
