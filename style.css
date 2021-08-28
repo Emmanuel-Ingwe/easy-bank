@@ -469,8 +469,12 @@ h6 {
 	margin-left: 117px;
     }
 
+	.socials {
+		margin-top: 20px;
+	}
+
 .socials a {
-	padding: 4px;
+	padding: 5.5px;
 }
 
 .socials a:hover {
@@ -478,14 +482,7 @@ h6 {
 }
 
 .list {
-	margin-top: 40px;
-}
-
-.list1 ol {
-	color: rgb(227, 222, 252);
-	padding-bottom: 29px;
-	font-weight: 400;
-	font-size: 13.6px;
+	margin-top: 100px;
 }
 
 .list1 ol:hover {
@@ -605,13 +602,9 @@ h6 {
 
     .list1 ol {
     	color: rgb(227, 222, 252);
-    	padding-bottom: 10px;
+    	padding-bottom: 20px;
     	font-weight: 400;
     	font-size: 13.6px;
-    }
-
-    .socials a {
-	padding: 4px;
     }
 } 
 /* END For MOBILE */
