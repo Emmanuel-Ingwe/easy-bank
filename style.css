@@ -248,6 +248,10 @@ h6 {
 	color: hsl(136, 65%, 51%);
 }
 
+.list {
+	column-count: 2;
+}
+
 .list1 li {
 	list-style: none;
 	margin-left: 130px;
@@ -267,7 +271,7 @@ h6 {
 }
 
 .btn {
-	margin-left: 230px;
+	margin-left: 160px;
 }
 
 .btn button {
@@ -483,6 +487,7 @@ h6 {
 
 .list {
 	margin-top: 100px;
+	margin-bottom: 18px;
 }
 
 .list1 ol:hover {
@@ -491,12 +496,8 @@ h6 {
 	cursor: pointer;
 }
 
-.btn button {
-	margin-left: 1px;
-}
-
 .btn p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-left: 0px;
 	margin-top: 7px;
 }
@@ -576,24 +577,10 @@ h6 {
     }
 
 	#footer {
-	height: 700px;
+	height: 540px;
 	display: inline-block;
 	width: 375px;
     }
-
-	.btn {
-	margin-left: 0px;
-    } 
-
-    /* .btn button {
-	margin-left: 0px;
-    } */
-
-    .btn p {
-	font-size: 20px;
-	/* margin-left: 0px;
-	margin-top: 0px; */
-    } 
 
 	.list1 li {
 	list-style: none;
@@ -601,10 +588,10 @@ h6 {
     }
 
     .list1 ol {
-    	color: rgb(227, 222, 252);
-    	padding-bottom: 20px;
-    	font-weight: 400;
-    	font-size: 13.6px;
+    color: rgb(227, 222, 252);
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 13.6px;
     }
 } 
 /* END For MOBILE */
