@@ -532,15 +532,23 @@ h6 {
 	color: hsla(233, 26%, 24%, 0.877);
 }
 
+.fa:hover {
+	cursor: grab;
+}
+
 .faa {
 	font-size: 30px;
 	padding-left: 240px;
 	color: hsla(233, 26%, 24%, 0.877);
 }
 
+.faa:hover {
+	cursor: grab;
+}
+
 #list3 {
 	background: hsl(0, 2%, 88%);
-    margin-left: 380px;
+    margin-left: 410px;
 	margin-top: 10px;
 	margin-top: 50px;
 	height: 39vh;
